@@ -7,7 +7,8 @@
    <ComponentVue></ComponentVue>
    <DireactivVue></DireactivVue>
    <DireactiveOneVue></DireactiveOneVue>
-  <PluginVue></PluginVue>
+   <PluginVue></PluginVue>
+   <Renders></Renders>
   </div>
 </template>
 <script>
@@ -19,6 +20,7 @@
     import DireactivVue from '../plugins/direactiveVue'
     import DireactiveOneVue from '../plugins/direactiveOneVue'
     import PluginVue from '../plugins/pluginVue'
+    import Renders from '../util/renderVue'
      export default {
         name: "HelloWord",
         components:{
@@ -30,7 +32,8 @@
             ComponentVue,
             DireactivVue,
             DireactiveOneVue,
-            PluginVue
+            PluginVue,
+            Renders
         },
     }
 </script>
