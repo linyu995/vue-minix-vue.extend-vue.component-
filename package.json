@@ -1,7 +1,8 @@
 {
-  "name": "vuedemo",
+  "name": "vuedemoplugin",
+   "description": "发布一个vue的插件，只是一个案例测试用",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
