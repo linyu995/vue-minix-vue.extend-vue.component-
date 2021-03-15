@@ -5,7 +5,6 @@ import Pluign from './util/pluginvue'
 Vue.use(ANT)
 Vue.use(Pluign)
 Vue.config.productionTip = false
-
 new Vue({
   render: h => h(App),
 }).$mount('#app')
